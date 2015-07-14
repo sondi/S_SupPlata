@@ -1,0 +1,23 @@
+$( document ).ready(function() {
+	$('#home').show();
+    $('li').first().click(function(){
+	event.preventDefault();
+    	$('#home').hide();
+		$('#about').show();
+    })
+    $('li:nth-child(2)').click(function(){
+	event.preventDefault();
+    	$('#about').hide();
+		$('#tours').show();
+    })
+    $('li:nth-child(3)').click(function(){
+	event.preventDefault();
+    	$('#tours').hide();
+		$('#summercamps').show();
+    })
+    $('li').last().click(function(){
+	event.preventDefault();
+    	$('#summercamps').hide();
+		$('#store').show();
+    })
+});

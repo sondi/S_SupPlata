@@ -1,0 +1,44 @@
+header{
+	background-color: red;
+}
+
+header ul li{
+	display: inline-block;
+	padding: 15px;
+}
+
+#menu{
+	width: 650px;
+	margin: 0 auto;
+}
+
+#logo{
+	width: 200px;
+	margin: 0 auto;
+}
+
+#content{
+	width: 600px;
+	margin: 0 auto;
+}
+
+#home{
+	background-color: orange;
+	height: 300px;
+}
+
+#about{
+	background-color: blue;
+}
+
+#tours{
+	background-color: green;
+}
+
+#summercamps{
+
+}
+
+#store{
+	background-color: yellow;
+}
